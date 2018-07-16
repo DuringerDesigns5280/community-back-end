@@ -3,7 +3,9 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+const knex = require('./db/knex');
 const cors = require('cors');
+const port = 5000
 
 var indexRouter = require('./routes/mentors');
 
@@ -38,5 +40,5 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-
+app.listen(port)
 module.exports = app;

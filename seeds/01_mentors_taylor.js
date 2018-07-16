@@ -82,9 +82,9 @@ exports.seed = function(knex, Promise) {
           image: "https://imgix.bustle.com/uploads/getty/2018/5/21/2ebb2480-5342-4301-aa84-cefe12be1f4a-getty-501501330.jpg?w=970&h=582&fit=crop&crop=faces&auto=format&q=70"
       
       }
-    
-      
-      ]);
-    });
-
-};
+      ])
+    })
+    .then(() => {
+      return knex.raw("SELECT setval('mentors_id_seq', (SELECT MAX(id) FROM mentors))")
+})
+}

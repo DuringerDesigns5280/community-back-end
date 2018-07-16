@@ -1,3 +1,5 @@
+import { builtinModules } from 'module';
+
 const express = require('express');
 const router = express.Router();
 const knex = require('../db/knex');
@@ -34,3 +36,5 @@ router.put("/:id", (request, response, next) => {
         response.json({mentors})
     }).catch(next)
 })
+
+module.exports = router 

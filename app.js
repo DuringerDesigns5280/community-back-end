@@ -6,7 +6,6 @@ var logger = require('morgan');
 const cors = require('cors');
 
 var indexRouter = require('./routes/mentors');
-var usersRouter = require('./routes/users');
 
 var app = express();
 app.use(cors());

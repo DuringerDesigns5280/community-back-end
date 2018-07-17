@@ -7,15 +7,15 @@ module.exports = {
     read(id){
         return database('users').select().where('id', id).first()
     },
-    create(mentor){
+    create(users){
         return database('users')
-            .insert(mentor)
+            .insert(users)
             .returning('*')
             .then(record => record[0])
     },
-    update(id, mentor){
+    update(id, users){
         return database('users')
-            .update(mentor)
+            .update(users)
             .where('id', id)
             .returning('*')
             .then(record => record[0])

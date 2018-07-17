@@ -5,7 +5,7 @@ const knex = require('../db/knex');
 
 const queries = require('../queries/userQueries')
 
-router.get("/", (request, response, next) => {
+router.get("/users", (request, response, next) => {
     queries.list().then(users => {
         response.json({users})
     }).catch(next)

@@ -24,3 +24,4 @@ module.exports = {
         return database('users').delete().where('id', id)
     }
 }
+

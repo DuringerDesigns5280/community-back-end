@@ -7,13 +7,13 @@ exports.seed = function(knex, Promise) {
       return knex('mentors').insert([
         {
           id: 1,
-          name: "Taylor",
+          name: "Jack",
           age: 26,
           identity: "Gay",
           gender: "Cis Male",
           Im: "Out",
-          description: "Hello! My name is Taylor I live in Denver Colorado with my Fiancé Brandon and our Dog Louis. We have been together for 2 years and getting married next fall! I grew up in a small town of 1,000 people in southern Utah. I came out 10 years ago when I was 16 years ago. Coming out in a small community was challenging but also very rewarding. The one thing I wish I had was someone to talk me thought the coming out process that had been through it themselves. That is why I am so glad to be a Mentor on Community so I can help people who don’t have the support like I did.",
-          image: "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/22365629_10105601754580813_7197396316128962093_n.jpg?_nc_cat=0&oh=95401fc270846b9891300380ab3e030a&oe=5BCF951F"
+          description: "“High school was the place I really came to terms with who I was as a person. I remember being confused for such a long time about who I was, especially when it came to my sexual orientation. I always knew I wasn’t like the rest of the straight boys at my school; I wasn’t attracted to women in the same way they were. I was, however attracted to men, but I didn’t think of it really in a very sexual way. I thought I was so interested in these guys because I wanted to be friends with them, or I wanted my body to look like theirs, or I wanted the same kind of haircut as them. I soon realized after those were not the only reasons I was thinking the way I was.",
+          image: "https://images.unsplash.com/photo-1488371934083-edb7857977df?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=79e516e5e50dfd4f8e0764fdfa5d5b1f&auto=format&fit=crop&w=500&q=60"
       },
       {
           id: 2,
@@ -65,21 +65,21 @@ exports.seed = function(knex, Promise) {
       },
       {
           id: 7,
-          name: "Jennifer Boylan",
-         age: 60,
-          gender: "Male",
+          name: "Jennifer",
+         age: 30,
+          gender: "",
           Im: "Transgender MTF",
           description: "For trans people, I am hoping that there is some hope in learning how my life, and the lives of the people I love have continued since transitioning.  I know so many people lose their families, lose connection to their children, and suffer in so many ways; I hear from those noble, maligned souls every day.  But people should know that there are other ways our stories can turn out.  In my own life, as a result of luck, and love, and the brilliance of the people around me, my experience as a parent-- as both father and mother-- have helped define me.  As Puig once wrote, This dream is short, but happy.'",
-          image: "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_675,w_1200,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1493048438/articles/2012/06/20/from-he-to-she-jennifer-finney-boylan-s-how-i-write-interview/jennifer-finney-boylan-interview_qs98l9"
+          image: "https://images.unsplash.com/photo-1518971428743-316d34219148?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=552624c9bfbac6016bf1ad5dd73bcfbe&auto=format&fit=crop&w=500&q=60"
       },
       {
           id: 8,
-          name: "Andreja Pejić",
+          name: "Andreja",
           age: 23,
-          gender: "Female",
+          gender: "",
           Im: "Transgender MTF",
           description: "I would like to to reach out to all young gender non-conforming youth out there: I know it's hard, I've been there, but remember it's your right to be accepted as what you identify with---you deserve the same respect as any other human being on this planet. As a transgender woman I hope to show that after transition (a life-saving process) one can be happy and successful in their new chapter without having to alienate their past. Most importantly differences should not equal divisions, let's all stand together in union. #betruebeyou ",
-          image: "https://imgix.bustle.com/uploads/getty/2018/5/21/2ebb2480-5342-4301-aa84-cefe12be1f4a-getty-501501330.jpg?w=970&h=582&fit=crop&crop=faces&auto=format&q=70"
+          image: "https://images.unsplash.com/photo-1450297350677-623de575f31c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8ec08f945e158c5d018fec41a911e626&auto=format&fit=crop&w=500&q=60"
       
       }
       ])
